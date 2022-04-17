@@ -3045,8 +3045,6 @@ button:disabled,
 	margin: 0 0 0.5em 0;
 }
 
-
-
 /* Header */
 
 @-moz-keyframes reveal-header {
@@ -3633,13 +3631,17 @@ body.is-preload #banner>.inner {
 
 #contact>.inner> :nth-child(2n - 1) {
 	padding: 4em 3em 2em 0;
-	border-right: solid 1px rgba(212, 212, 255, 0.1);
-	width: 60%;
+	/* border-right: solid 1px rgba(212, 212, 255, 0.1); */
+	/* width: 60%; */
 }
 
 #contact>.inner> :nth-child(2n) {
 	padding-left: 3em;
 	width: 40%;
+}
+
+.inner section {
+	margin: 0 auto;
 }
 
 
